@@ -30,7 +30,7 @@ html, body {
 #side-menu a {
 	padding: 12px 20px;
 	text-decoration: none;
-	color:#9fb1c2;
+	color: #9fb1c2;
 	font-weight: bold;
 	font-size: 13px;
 	display: block;
@@ -42,12 +42,12 @@ html, body {
 
 #side-menu a:hover {
 	background-color: #293846;
-	color: white;
 	display: block;
+	color: #fff;
 }
 
-#side-menu .active a{
-	color: white;
+#side-menu .active a {
+	color: #fff;
 	background-color: #293846;
 }
 
@@ -56,11 +56,11 @@ html, body {
 }
 
 #side-menu .settings-btn a {
-	color: white;
+	color: #fff;
 }
 
-#side-emnu .setting-btn a:hover {
-	background-color: #1ab397;
+#side-menu .settings-btn a:hover {
+	background-color: #1ab394;
 }
 
 #side-menu .collapseable li {
@@ -73,14 +73,14 @@ html, body {
 	font-size: 12px;
 	padding: 0px 10px;
 	text-decoration: none;
-	display: block;
+	display: block
 }
 
 #side-menu .collapseable a:hover {
-	color: white;
+	color: #fff;
 }
 
-#side-menu .collapseable{
+#side-menu .collapseable {
 	border-left: 4px solid #1ab394;
 	background-color: #293846;
 }
@@ -112,7 +112,7 @@ html, body {
 }
 
 #nav-header {
-	background-color: white;
+	background-color: #fff;
 	border-bottom: 1px solid #e7eaec;
 }
 
@@ -133,7 +133,7 @@ html, body {
 
 #nav-header ul li {
 	float: left;
-	margin-left: 15px; 
+	margin-left: 15px;
 	padding: 17px 0px;
 }
 
@@ -147,6 +147,10 @@ html, body {
 
 #nav-header ul a {
 	text-decoration: none;
+}
+
+#nav-header .logout {
+	color: #676a6c;
 }
 
 #nav-header .logout:hover {
@@ -171,14 +175,14 @@ html, body {
 	position: absolute;
 	width: 100%;
 	bottom: 0px;
-	background-color: white;
+	background-color: #fff;
 	padding: 10px;
 	font-size: 12px;
 	color: #676a6c;
 }
 
 .navbar-default {
-	background-color: white;
+	background-color: #fff;
 }
 
 .navbar-default .navbar-toggle {
@@ -209,7 +213,6 @@ html, body {
 	padding: 10px 20px;
 }
 
-
 .page_title {
 	font-size: 14px;
 	font-weight: bold;
@@ -218,4 +221,61 @@ html, body {
 
 .content-inner {
 	padding: 20px;
+}
+
+.search-field {
+	height: 31px;
+	border: 1px #e7eaec solid;
+}
+
+.search-row {
+	margin-bottom: 30px;
+}
+
+.btn-primary {
+	background-color: #1ab394;
+	border: 1px solid #1ab394;
+}
+
+.btn-primary:hover {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+.btn-primary:focus {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+.go {
+	height: 31px;
+}
+
+.label-success {
+	background-color: #1ab394;
+}
+
+.label-lg {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+.label-sm {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.label-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.pagination a {
+	color: #1ab394 !important;
 }
