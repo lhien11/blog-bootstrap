@@ -1,7 +1,7 @@
 # blog-bootstrap
 visit this URL for the site <br>
 http://79.170.40.52/hientrungle.com/blog/about.html <br>
-http://79.170.40.52/hientrungle.com/blog/archieve.html <br>
+http://79.170.40.52/hientrungle.com/blog/archive.html <br>
 http://79.170.40.52/hientrungle.com/blog/article.html <br>
 http://79.170.40.52/hientrungle.com/blog/contact.html <br>
 http://79.170.40.52/hientrungle.com/blog/post.html <br>
