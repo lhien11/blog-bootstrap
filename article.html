@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Posts</title>
+    <title>Article</title>
 
     <!-- Bootstrap -->
     <link href="vendor/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/default.css">
-    <link rel="stylesheet" type="text/css" href="css/posts.css">
+    <link rel="stylesheet" type="text/css" href="css/article.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,6 +66,7 @@
                 </a>
               </div>
 
+
               <hr class="hidden-xs hidden-sm">
 
               <div class="social-icons">
@@ -88,59 +89,53 @@
         
         <div class="col-md-8">
           <article>
-            <header><h2>Lorem ipsum dolor sit amet, consectetur</h2></header>
-            <footer><small>Posted on 1 Jan 2015</small></footer>
-
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing</h1>
             <div class="lead">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et. <a href="article.html">Read More</a>
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-
-            <footer>
-              <span class="label label-default">code</span>
-              <span class="label label-default">programming</span>
-              <span class="label label-default">bootstrap</span>
-            </footer>
-            <hr>
           </article>
 
-          <article>
-            <header><h2>Lorem ipsum dolor sit amet, consectetur</h2></header>
-            <footer><small>Posted on 1 Jan 2015</small></footer>
-
-            <div class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et. <a href="article.html">Read More</a>
+          <div id="comments">
+            <h2>Comments</h2>
+            <div class="row">
+              <div class="col-md-11">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+                <footer>
+                  <small><b>Kingsley Ijomah</b> Commented on: 8 Jan 2015</small>
+                </footer>
+                <hr>
+              </div>
+              <div class="col-md-1 comment-num">01</div>
             </div>
 
-            <footer>
-              <span class="label label-default">code</span>
-              <span class="label label-default">programming</span>
-              <span class="label label-default">bootstrap</span>
-            </footer>
-            <hr>
-          </article>
+            <form>
+              <h3>Have your say</h3>
+              <p>
+                <label class="sr-only">Message</label>
+                <textarea class="form-control" placeholder="Message" id="message" required autocomplete="false"></textarea>
+              </p>
 
-          <nav>
-            <ul class="pagination">
-              <li>
-                <a href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li>
-                <a href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+              <p>
+                <label class="sr-only">Full Name</label>
+                <input type="text" class="form-control" placeholder="Full Name" required>
+              </p>
 
+              <p>
+                <label class="sr-only">Email Address</label>
+                <input type="email" class="form-control" placeholder="Email Address" required>
+              </p>
+
+              <p><input type="submit" class="btn btn-primary" value="Send Message"></p>
+            </form>
+          </div>
         </div>
       </div>
     </div>
