@@ -13,3 +13,5 @@ http://79.170.40.52/hientrungle.com/blog/admin/new-article.html <br>
 http://79.170.40.52/hientrungle.com/blog/admin/articles.html <br>
 http://79.170.40.52/hientrungle.com/blog/admin/approved.html <br>
 
+# wordpress
+http://79.170.40.52/hientrungle.com/wordpress/
